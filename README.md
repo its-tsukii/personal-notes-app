@@ -86,20 +86,27 @@ YAML syntax quirks (array vs key-value formats)
 Debugging containers: logs, restart loops, and tears.
 
 🖼️ Screenshots
+
 1.Docker Compose up (Terminal)
+
 ![up](screenshots/up.png)
 
 2.Docker Dashboard / docker ps -a Output
+
 ![ps](screenshots/ps.png)
 
 3.Django Web App Home Page
+
 ![app1](screenshots/app1.png)
+
 ![app2](screenshots/app2.png)
 
 4.Container Logs / Healthchecks Pass
+
 ![healthcheck](screenshots/healthcheck.png)
 
 6.Docker Desktop 
+
 ![desktop](screenshots/desktop.png)
 
 🛑 Not Deploying Yet
