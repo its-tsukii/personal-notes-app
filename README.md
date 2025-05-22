@@ -46,16 +46,16 @@ Username: root | Password: root (default, do not use in production!)
 
 📁 Project Structure
 
-.
-├── backend/              # Django app code
-│   ├── manage.py
-│   └── ...
-├── nginx/                # Nginx Docker config
-│   └── default.conf
-├── Dockerfile            # Builds Django image
-├── docker-compose.yml    # Multi-container setup
-├── .env                  # Environment variables
-└── README.md             # You're here!
+<br>.
+<br>├── backend/              # Django app code
+<br>│   ├── manage.py
+<br>│   └── ...
+<br>├── nginx/                # Nginx Docker config
+<br>│   └── default.conf
+<br>├── Dockerfile            # Builds Django image
+<br>├── docker-compose.yml    # Multi-container setup
+<br>├── .env                  # Environment variables
+<br>└── README.md             # You're here!
 ❤️ Healthchecks FTW
 Debugging startup order was painful. MySQL wasn't ready when Django started. Nginx screamed. So I used healthchecks to delay container readiness.
 
